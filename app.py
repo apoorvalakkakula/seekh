@@ -15,8 +15,8 @@ UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
 if ref_video and perf_video:
-    ref_path = os.path.join(UPLOAD_DIR, "reference.mp4")
-    perf_path = os.path.join(UPLOAD_DIR, "performance.mp4")
+    ref_path = os.path.join(UPLOAD_DIR, "reference dance.mp4")
+    perf_path = os.path.join(UPLOAD_DIR, "practise dance.mp4")
 
     with open(ref_path, "wb") as f:
         f.write(ref_video.read())
